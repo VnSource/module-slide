@@ -1,0 +1,24 @@
+{
+  "name": "vnsource/module-slide",
+  "displayName": "Slide",
+  "type": "module",
+  "description": "The VnSource Module Slide",
+  "homepage": "https://github.com/vnsource/module-slide",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mr. VnS",
+      "email": "lienhe.vns@gmail.com"
+    }
+  ],
+  "autoload": {
+      "files": [],
+      "psr-4": {
+          "VnsModules\\Slide\\": "/"
+      }
+  },
+  "providers": [
+    "VnsModules\\Slide\\ModuleServiceProvider"
+  ]
+}
